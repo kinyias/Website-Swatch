@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Của hàng bán đồng hồ</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <i class="bx bxs-watch nav__logo-icon"></i> Logo
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Trang chủ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sản phẩm</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Liên hệ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Về chúng tôi</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <a href="login.html">
+            <i class="bx bx-user"></i>
+          </a>
+
+          <div class="nav__shop" id="cart-shop">
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <div class="container">
+        <div class="product-detail">
+          <div class="product-detail-image">
+            <img
+              src="./assets/img/home.png"
+              alt="${product.name}"
+              class="zoom"
+            />
+          </div>
+          <div class="product-detail-content">
+            <div class="product-detail-name">
+              <h2>Đồng hồ 1</h2>
+            </div>
+            <div class="product-detail-brand">
+              <strong style="font-weight: 600">Thương hiệu:</strong>
+              Thương hiệu 1
+            </div>
+            <div class="product-detail-price">
+              <span class="price-title">Giá: </span>
+              <span class="price">2,000,000đ</span>
+            </div>
+            <div class="product-detail-actions">
+              <div class="product-detail-quantity">
+                <div class="quantity-title">Số lượng:</div>
+                <button class="btn-qty" onclick="minusProduct()">-</button>
+                <input
+                  type="text"
+                  id="quantity"
+                  name="quantity"
+                  value="1"
+                  min="1"
+                  class="quantity-input"
+                />
+                <button class="btn-qty" onclick="plusProduct()">+</button>
+              </div>
+              <div class="product-detail-addToCart mt-3">
+                <button class="btn btn-cart">Thêm vào giỏ</button>
+                <button class="btn btn-buynow">
+                  <a href="cart-detail.html">Mua ngay</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product-detail-description">
+          <div class="row">
+            <div class="col-12">
+              <div class="product-description">
+                <div class="box-detail-title">
+                  <h2>Mô tả sản phẩm</h2>
+                </div>
+                <div class="description-content">
+                  <h2>Đồng hồ 1</h2>
+                  <p>Mô tả đồng hồ 1</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">Thông tin</h3>
+
+          <ul class="footer__list">
+            <li>180 Cao Lỗ phường 4, Quận 8 TPHCM</li>
+            <li>+84123456789</li>
+            <li>contact@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Về chúng tôi</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Trung tâm hỗ trợ</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Hỗ trợ khách hàng</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Về chúng tôi</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Bản quyền</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Sản phẩm</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Đồng hồ thể thao</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Đồng hồ thông minh</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Đồng hồ điện tử</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Phụ kiện</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.953999521067!2d106.67529067573575!3d10.738028859899389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fad027e3727%3A0x2a77b414e887f86d!2zMTgwIMSQLiBDYW8gTOG7lywgUGjGsOG7nW5nIDQsIFF14bqtbiA4LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1715222907593!5m2!1svi!2s"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <span class="footer__copy"
+        >Tên: Nguyễn Trần Gia Bảo | MSSV: DH521 | Lớp: D21_TH01</span
+      >
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <button href="" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </button>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--===============  Jquery ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

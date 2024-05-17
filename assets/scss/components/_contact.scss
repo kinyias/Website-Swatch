@@ -1,0 +1,56 @@
+.contact {
+  margin-top: 100px;
+  &__title {
+    text-align: center;
+  }
+  &__inner {
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid var(--border-color);
+    overflow-y: hidden;
+    .frm-contact {
+      .frm-field {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: center;
+        label {
+          width: 30%;
+          text-align: left;
+        }
+      }
+      input {
+        width: 80%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        border: 1px solid var(--border-color);
+        outline: none;
+      }
+    }
+    .frm-field-message {
+      text-align: left;
+      margin-top: 20px;
+      #message {
+        margin-top: 20px;
+        width: 100%;
+        background: #fff;
+        border: 1px solid var(--border-color);
+        color: #838383;
+        padding: 10px;
+        outline: none;
+      }
+    }
+    .frm-field-group{
+      margin-top: 10px;
+      label{
+          width: 100px!important;
+      }
+    }
+  }
+}

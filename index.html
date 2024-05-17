@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Cửa hàn bán đồng hồ</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <i class="bx bxs-watch nav__logo-icon"></i> Logo
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Trang chủ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sản phẩm</a>
+            </li>
+            <li class="nav__item">
+              <a href="contact.html" class="nav__link">Liên hệ</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Về chúng tôi</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <a href="login.html">
+            <i class="bx bx-user"></i>
+          </a>
+
+          <div class="nav__shop" id="cart-shop">
+            <i class="bx bx-shopping-bag"></i>
+          </div>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__img-bg">
+            <img src="assets/img/home.png" alt="" class="home__img" />
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">
+              ĐỒNG HỒ MỚI <br />
+              SẢN PHẨM B720
+            </h1>
+            <p class="home__description">
+              Chứng thực sự xuất hiện của đồng hồ nhập khẩu mới thuộc dòng B720,
+              với thiết kế hiện đại và bền bỉ.
+            </p>
+            <span class="home__price">2,200,00đ</span>
+
+            <div class="home__btns">
+              <a
+                href="product-detail-1.html"
+                class="button button--gray button--small"
+              >
+                Chi tiết
+              </a>
+
+              <button class="button home__button">THÊM VÀO GIỎ</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FEATURED ====================-->
+      <section class="featured section container" id="featured">
+        <h2 class="section__title">Nổi bật</h2>
+
+        <div class="featured__container grid">
+          <article class="featured__card">
+            <span class="featured__tag">Sale</span>
+            <a href="product-detail-2.html">
+              <img
+                src="assets/img/featured1.png"
+                alt=""
+                class="featured__img"
+              />
+            </a>
+
+            <div class="featured__data">
+              <h3 class="featured__title">
+                <a href="product-detail-2.html">Jazzmaster</a>
+              </h3>
+              <span class="featured__price">2,550,000đ</span>
+            </div>
+
+            <button class="button featured__button">THÊM VÀO GIỎ</button>
+          </article>
+
+          <article class="featured__card">
+            <span class="featured__tag">Sale</span>
+            <a href="product-detail-3.html">
+              <img
+                src="assets/img/featured2.png"
+                alt=""
+                class="featured__img"
+              />
+            </a>
+
+            <div class="featured__data">
+              <h3 class="featured__title">
+                <a href="product-detail-3.html">Ingersoll</a>
+              </h3>
+              <span class="featured__price">990,000đ</span>
+            </div>
+
+            <button class="button featured__button">THÊM VÀO GIỎ</button>
+          </article>
+
+          <article class="featured__card">
+            <span class="featured__tag">Sale</span>
+            <a href="product-detail-4.html">
+              <img
+                src="assets/img/featured3.png"
+                alt=""
+                class="featured__img"
+              />
+            </a>
+
+            <div class="featured__data">
+              <h3 class="featured__title">
+                <a href="product-detail-4.html">Rose gold</a>
+              </h3>
+              <span class="featured__price">1,650,000đ</span>
+            </div>
+
+            <button class="button featured__button">THÊM VÀO GIỎ</button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== STORY ====================-->
+      <section class="story section container">
+        <div class="story__container grid">
+          <div class="story__data">
+            <h2 class="section__title story__section-title">Thương hiệu</h2>
+
+            <h1 class="story__title">
+              Đồng hồ Inspirational <br />
+              bán chạy của năm
+            </h1>
+
+            <p class="story__description">
+              Chiếc đồng hồ mới nhất và hiện đại nhất của năm nay hiện có sẵn ở
+              nhiều dạng trưng bày khác nhau tại cửa hàng này, hãy khám phá
+              chúng ngay bây giờ.
+            </p>
+
+            <a href="product-detail-5.html" class="button button--small"
+              >Discover</a
+            >
+          </div>
+
+          <div class="story__images">
+            <img src="assets/img/story.png" alt="" class="story__img" />
+            <div class="story__square"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section container" id="products">
+        <h2 class="section__title">Sản phẩm</h2>
+
+        <div class="products__container grid">
+          <article class="products__card">
+            <a href="product-detail-6.html">
+              <img src="assets/img/product1.png" alt="" class="products__img" />
+            </a>
+
+            <h3 class="products__title">
+              <a href="product-detail-6.html">Spirit rose</a>
+            </h3>
+            <span class="products__price">3,500,000đ</span>
+
+            <button class="products__button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <a href="product-detail-7.html">
+              <img src="assets/img/product2.png" alt="" class="products__img" />
+            </a>
+
+            <h3 class="products__title">
+              <a href="product-detail-7.html">Khaki pilot</a>
+            </h3>
+            <span class="products__price">2,220,000đ</span>
+
+            <button class="products__button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <a href="product-detail-8.html">
+              <img src="assets/img/product3.png" alt="" class="products__img" />
+            </a>
+
+            <h3 class="products__title">
+              <a href="product-detail-8.html">Jubilee black</a>
+            </h3>
+            <span class="products__price">1,800,000đ</span>
+
+            <button class="products__button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <a href="product-detail-9.html">
+              <img src="assets/img/product4.png" alt="" class="products__img" />
+            </a>
+
+            <h3 class="products__title">
+              <a href="product-detail-9.html">Fosil me3</a>
+            </h3>
+            <span class="products__price">1,440,000đ</span>
+
+            <button class="products__button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <a href="product-detail-10.html">
+              <img src="assets/img/product5.png" alt="" class="products__img" />
+            </a>
+
+            <h3 class="products__title">
+              <a href="product-detail-10.html">Duchen</a>
+            </h3>
+            <span class="products__price">2,100,000đ</span>
+
+            <button class="products__button">
+              <i class="bx bx-shopping-bag"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section container">
+        <div class="testimonial__container grid">
+          <div class="swiper testimonial-swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class="bx bxs-quote-alt-left"></i>
+                </div>
+                <p class="testimonial__description">
+                  Chúng là những chiếc đồng hồ tốt nhất mà người ta mua được,
+                  chúng cũng là luôn có những tin tức và xu hướng mới nhất, với
+                  một giá cả thoải mái và đặc biệt với sự quan tâm của bạn nhận
+                  được, họ luôn chú ý đến câu hỏi của bạn.
+                </p>
+                <h3 class="testimonial__date">March 27. 2023</h3>
+
+                <div class="testimonial__perfil">
+                  <img
+                    src="assets/img/testimonial1.jpg"
+                    alt=""
+                    class="testimonial__perfil-img"
+                  />
+
+                  <div class="testimonial__perfil-data">
+                    <span class="testimonial__perfil-name"
+                      >Muhammad Sohail</span
+                    >
+                    <span class="testimonial__perfil-detail"
+                      >Giám đốc công ty</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class="bx bxs-quote-alt-left"></i>
+                </div>
+                <p class="testimonial__description">
+                  Chúng là những chiếc đồng hồ tốt nhất mà người ta mua được,
+                  chúng cũng là luôn có những tin tức và xu hướng mới nhất, với
+                  một giá cả thoải mái và đặc biệt với sự quan tâm của bạn nhận
+                  được, họ luôn chú ý đến câu hỏi của bạn.
+                </p>
+                <h3 class="testimonial__date">March 27. 2023</h3>
+
+                <div class="testimonial__perfil">
+                  <img
+                    src="assets/img/testimonial2.jpg"
+                    alt=""
+                    class="testimonial__perfil-img"
+                  />
+
+                  <div class="testimonial__perfil-data">
+                    <span class="testimonial__perfil-name">Maha Ali</span>
+                    <span class="testimonial__perfil-detail"
+                      >Giám đốc công ty</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonial__card swiper-slide">
+                <div class="testimonial__quote">
+                  <i class="bx bxs-quote-alt-left"></i>
+                </div>
+                <p class="testimonial__description">
+                  Chúng là những chiếc đồng hồ tốt nhất mà người ta mua được,
+                  chúng cũng là luôn có những tin tức và xu hướng mới nhất, với
+                  một giá cả thoải mái và đặc biệt với sự quan tâm của bạn nhận
+                  được, họ luôn chú ý đến câu hỏi của bạn.
+                </p>
+                <h3 class="testimonial__date">March 27. 2023</h3>
+
+                <div class="testimonial__perfil">
+                  <img
+                    src="assets/img/testimonial3.jpg"
+                    alt=""
+                    class="testimonial__perfil-img"
+                  />
+
+                  <div class="testimonial__perfil-data">
+                    <span class="testimonial__perfil-name"
+                      >Muhammad Sabtain</span
+                    >
+                    <span class="testimonial__perfil-detail"
+                      >Giám đốc công ty</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next">
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="bx bx-left-arrow-alt"></i>
+            </div>
+          </div>
+
+          <div class="testimonial__images">
+            <div class="testimonial__square"></div>
+            <img
+              src="assets/img/testimonial.png"
+              alt=""
+              class="testimonial__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEW ====================-->
+      <section class="new section container" id="new">
+        <h2 class="section__title">Sản phẩm mới</h2>
+
+        <div class="new__container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <article class="new__card swiper-slide">
+                <span class="new__tag">New</span>
+                <a href="product-detail-11.html">
+                  <img src="assets/img/new1.png" alt="" class="new__img" />
+                </a>
+
+                <div class="new__data">
+                  <h3 class="new__title">
+                    <a href="product-detail-11.html">Longines rose</a>
+                  </h3>
+                  <span class="new__price">2,000,000đ</span>
+                </div>
+
+                <button class="button new__button">THÊM VÀO GIỎ</button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <span class="new__tag">New</span>
+
+                <a href="product-detail-12.html">
+                  <img src="assets/img/new2.png" alt="" class="new__img" />
+                </a>
+
+                <div class="new__data">
+                  <h3 class="new__title">
+                    <a href="product-detail-12.html">Jazzmaster</a>
+                  </h3>
+                  <span class="new__price">2,600,000đ</span>
+                </div>
+
+                <button class="button new__button">THÊM VÀO GIỎ</button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <span class="new__tag">New</span>
+                <a href="product-detail-13.html">
+                  <img src="assets/img/new3.png" alt="" class="new__img" />
+                </a>
+
+                <div class="new__data">
+                  <h3 class="new__title">
+                    <a href="product-detail-13.html">Dreyfuss gold</a>
+                  </h3>
+                  <span class="new__price">1,550,000đ</span>
+                </div>
+
+                <button class="button new__button">THÊM VÀO GIỎ</button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <span class="new__tag">New</span>
+                <a href="product-detail-14.html">
+                  <img src="assets/img/new4.png" alt="" class="new__img" />
+                </a>
+
+                <div class="new__data">
+                  <h3 class="new__title">
+                    <a href="product-detail-14.html">Portuguese rose</a>
+                  </h3>
+                  <span class="new__price">1,550,000đ</span>
+                </div>
+
+                <button class="button new__button">THÊM VÀO GIỎ</button>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section container">
+        <div class="newsletter__bg grid">
+          <div>
+            <h2 class="newsletter__title">
+              Đăng kí <br />
+              nhận thông tin
+            </h2>
+            <p class="newsletter__description">
+              Đừng bỏ lỡ giảm giá của bạn. Đăng ký email của chúng tôi bản tin
+              để nhận được những ưu đãi, giảm giá, phiếu giảm giá, quà tặng và
+              nhiều hơn nữa.
+            </p>
+          </div>
+
+          <form action="" class="newsletter__subscribe">
+            <input
+              type="email"
+              placeholder="Email của bạn"
+              class="newsletter__input"
+            />
+            <button class="button">Đăng kí</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">Thông tin</h3>
+
+          <ul class="footer__list">
+            <li>180 Cao Lỗ phường 4, Quận 8 TPHCM</li>
+            <li>+84123456789</li>
+            <li>contact@gmail.com</li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">Về chúng tôi</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Trung tâm hỗ trợ</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Hỗ trợ khách hàng</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Về chúng tôi</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Bản quyền</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Sản phẩm</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Đồng hồ thể thao</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Đồng hồ thông minh</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Đồng hồ điện tử</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Phụ kiện</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.953999521067!2d106.67529067573575!3d10.738028859899389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fad027e3727%3A0x2a77b414e887f86d!2zMTgwIMSQLiBDYW8gTOG7lywgUGjGsOG7nW5nIDQsIFF14bqtbiA4LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1715222907593!5m2!1svi!2s"
+            width="300"
+            height="250"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <span class="footer__copy"
+        >Tên: Nguyễn Trần Gia Bảo | MSSV: DH521 | Lớp: D21_TH01</span
+      >
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <button href="" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </button>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!--===============  Jquery ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

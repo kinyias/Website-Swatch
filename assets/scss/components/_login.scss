@@ -1,0 +1,41 @@
+.login{
+    margin-top: 100px;
+    &__title{
+        text-align: center;
+    }
+    &__inner{
+        margin: 0 auto;
+        margin-top: 10px;
+        position: relative;
+        text-align: center;
+        padding: 2rem;
+        border: 1px solid var(--border-color);
+        overflow-y: hidden;
+        .frm-login {
+            .frm-field {
+              padding-top: 2rem;
+              display: flex;
+              justify-content: flex-start;
+              gap: 20px;
+              align-items: center;
+              label {
+                width: 30%;
+                text-align: left;
+              }
+            }
+            input {
+              width: 80%;
+              padding: 0.375rem 0.75rem;
+              font-size: 1rem;
+              font-weight: 400;
+              line-height: 1.5;
+              border: 1px solid var(--border-color);
+              outline: none;
+            }
+          }
+    }
+    .forgot-password{
+      margin-top: 10px;
+      display: block;
+    }
+}
